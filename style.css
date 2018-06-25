@@ -55,3 +55,69 @@ a {
     background-color: #343a40;
     color: #D4B44A;
 }
+
+@media (max-width: 560px) {
+
+    /*TABLET*/
+
+#about {
+    margin: 15px 0% 15px 10%;
+    width: 80%;
+}
+
+#aboutImg {
+    width: 45%;;
+    margin: 5px 18px 20px 18px;
+    float: left;
+}
+
+#tablet p {
+    padding: 0px;
+}
+
+
+#portfolio {
+    margin: 15px 0% 15px 10%;
+    width: 80%;
+}
+#spacing {
+    width: 52%;
+    margin: 0%;
+    
+}
+
+#portfolio {
+    margin: 15px 0% 15px 10%;
+    width: 80%;
+}
+
+
+}
+
+    /*DESKTOP*/
+
+@media (min-width: 992px) {
+
+#about {
+    margin: 15px -6% 60px 10%;
+    width: 50%;
+}
+
+#connect {
+    width: 25%;
+}
+
+#contact {
+    width: 50%;
+    margin: 15px -6% 50px 10%;
+
+}
+
+#portfolio {
+    width: 50%;
+    margin: 15px -6% 60px 10%;
+
+}
+
+
+}
