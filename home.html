@@ -23,7 +23,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light" class="text-center">
         <b>
-            <div class="navbar-brand" href="#" style="color: #D4B44A" style="text-shadow: 4px 4px 4px rgba(212,180,74, 0.65)">Andrew Holland</div>
+            <div class="navbar-brand" href="#" style="color: #D4B44A">Andrew Holland</div>
         </b>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -47,8 +47,8 @@
                     <a class="nav-link" href="contact.html" style="color: #D4B44A">Contact</a>
                 </li>
 
-                <div class="navbar-brand" href="#" style="color: #D4B44A" id="btc"> 
-                    <div class="btcwdgt-price" ></div>
+                <div class="navbar-brand" href="#" style="color: #D4B44A" id="btc">
+                    <div class="btcwdgt-price"></div>
                 </div>
             </ul>
         </div>
@@ -56,11 +56,11 @@
 
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
 
-            <main role="main" class="inner cover"  >
-                <br style="line-height: 300px">
-                <h1 class="cover-heading"id="cursive">Welcome!</h1>
-                <p class="lead"id="cursive">This website is dedicated to displaying the vitrual work created by Andrew Holland.</p>
-            </main>
+        <main role="main" class="inner cover">
+            <br style="line-height: 300px">
+            <h1 class="cover-heading" id="cursive">Welcome!</h1>
+            <p class="lead" id="cursive">This website is dedicated to displaying the digital work created by Andrew Holland.</p>
+        </main>
 
     </div>
 
@@ -74,14 +74,14 @@
     <script src="../../assets/js/vendor/popper.min.js"></script>
     <script src="../../dist/js/bootstrap.min.js"></script>
     <script>
-            (function(b,i,t,C,O,I,N) {
-              window.addEventListener('load',function() {
-                if(b.getElementById(C))return;
-                I=b.createElement(i),N=b.getElementsByTagName(i)[0];
-                I.src=t;I.id=C;N.parentNode.insertBefore(I, N);
-              },false)
-            })(document,'script','https://widgets.bitcoin.com/widget.js','btcwdgt');
-          </script>
+            (function (b, i, t, C, O, I, N) {
+                window.addEventListener('load', function () {
+                    if (b.getElementById(C)) return;
+                    I = b.createElement(i), N = b.getElementsByTagName(i)[0];
+                    I.src = t; I.id = C; N.parentNode.insertBefore(I, N);
+                }, false)
+            })(document, 'script', 'https://widgets.bitcoin.com/widget.js', 'btcwdgt');
+    </script>
 </body>
 
 </html>

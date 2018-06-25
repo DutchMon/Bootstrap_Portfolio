@@ -8,13 +8,15 @@
     <title>Andrew Holland</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="/Users/AndrewHolland/Documents/UofA Bootcamp/Homework/Assignment_2/Bootstrap_Portfolio/style.css">
-    
+
 
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light">
-        <b><div class="navbar-brand" href="#" style="color: #D4B44A"style="text-shadow: 4px 4px 4px rgba(212,180,74, 0.65)">Andrew Holland</div></b>
+        <b>
+            <div class="navbar-brand" href="#" style="color: #D4B44A" style="text-shadow: 4px 4px 4px rgba(212,180,74, 0.65)">Andrew Holland</div>
+        </b>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -36,29 +38,56 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html" style="color: #D4B44A">Contact</a>
                 </li>
-                
-                
+                <div class="navbar-brand" href="#" style="color: #D4B44A" id="btc">
+                    <div class="btcwdgt-price"></div>
+                </div>
+
             </ul>
         </div>
     </nav>
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-2">
+            <div class="col-smd-5">
+                <br style="line-height: 100px">
+
                 <b>
-                    <header style="font-size: 35px">About Me</header>
+                    <header style="font-size: 35px" id="cursive" id="text-center">About Me</header>
                 </b>
-                <img src="#" alt="Andrew Holland" width=180px height=150px>
+                <img src="/Users/AndrewHolland/Documents/UofA Bootcamp/Homework/Assignment_2/Random_Assets/LinkedIn.jpeg" alt="Andrew Holland Profile Picture"
+                    width="400px" height="540px" id="center">
             </div>
-            <div class="col-sm-8">
-                <br>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quis nesciunt, dicta aliquid quidem, odio
-                    qui, veritatis reiciendis delectus corrupti atque ratione officia vel voluptatem debitis accusamus repudiandae
-                    architecto eveniet.</p>
+            <div class="col-md-7" style="margin-left: 20px">
+                <br style="line-height: 200px">
+
+                <p>
+                    This is a page dedicated to the young, hopeful college student named Andrew Holland. He is a hardworking, aspiring individual,
+                    who's still trying to find his way in the world. Firstly, he's a huge soccer fan and a tech nerd on the
+                    side. Currently pursuing a degree in computer science and enrolled in a program to become a certified
+                    full stack web developer, Andrew is working hard to become a successful young man in the United States
+                    of America.
+                </p>
+                <p>
+                    Born and raised in Phoenix, Arizona, Andrew has dreams to become an influential software developer and to travel the world.
+                    He knows that to achieve his dream, he will need to work hard in everything he does and to constantly
+                    be seeking knowledge and understanding from experienced people in the same career field and all alleys
+                    of life.
+                </p>
+
             </div>
         </div>
 
+
+        <!-- Bitcoin Script-->
+        <script>
+            (function (b, i, t, C, O, I, N) {
+                window.addEventListener('load', function () {
+                    if (b.getElementById(C)) return;
+                    I = b.createElement(i), N = b.getElementsByTagName(i)[0];
+                    I.src = t; I.id = C; N.parentNode.insertBefore(I, N);
+                }, false)
+            })(document, 'script', 'https://widgets.bitcoin.com/widget.js', 'btcwdgt');
+        </script>
 
 </body>
 

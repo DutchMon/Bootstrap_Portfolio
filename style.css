@@ -1,5 +1,5 @@
 body {
-    background-image: url("/Users/AndrewHolland/Documents/UofA Bootcamp/Homework/Assignment_2/Random Assets/connectwork.png");
+    background-image: url("/Users/AndrewHolland/Documents/UofA Bootcamp/Homework/Assignment_2/Random_Assets/connectwork.png");
     color: white;
 
 }
@@ -25,14 +25,22 @@ a {
   #cursive {
     font-size: 60px;
     font-family: 'Dancing Script', cursive;
-    text-shadow: 4px 4px 4px rgba(212,180,74, 0.65)
+    text-shadow: 4px 4px 4px rgba(212,180,74, 0.65);
+    text-align: center;
     
   }
 
-  #btc {
-        position: absolute;
-        top: 8px;
-        right: 16px;
-        font-size: 18px;
-    }
-  
+#btc {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
