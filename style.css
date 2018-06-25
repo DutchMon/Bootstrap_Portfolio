@@ -44,3 +44,14 @@ a {
     margin-right: auto;
      
 }
+
+#spacing {
+    width: 25%;
+    margin: 0%;
+    
+}
+
+.card-body {
+    background-color: #343a40;
+    color: #D4B44A;
+}
